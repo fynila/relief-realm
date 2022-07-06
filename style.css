@@ -4,23 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
-
 }
-
+.container{
+    width: 1300px;
+    margin: auto;
+}
 /* top banner start here  */
 .top-banner {
     background-size: cover;
     text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 .top-inner {
     background: rgb(0 0 0 / 52%);
+}
+.banner-details{
     padding: 200px 300px;
 }
-
 .top-inner h1 {
     color: #fff;
     font-size: 60px;
@@ -45,13 +48,14 @@ body {
 .donate-button:hover {
     background: linear-gradient(90deg, rgba(30, 217, 9, 1), rgba(7, 129, 56, 1) 100%);
 }
-
 /* top banner ends here  */
 
 /* donate areas start here   */
 .donate-area {
-    margin: 100px 300px;
     text-align: center;
+}
+.donate-details{
+    padding: 100px 300px;
 }
 .donate-area h1 {
     font-weight: 700;
@@ -60,13 +64,11 @@ body {
     text-transform: capitalize;
     padding-bottom: 20px;
 }
-
 .donate-area p {
     line-height: 1.2;
     font-size: 18px;
     color: #665c5cd9;
 }
-
 .donate-ammount {
     list-style: none;
     padding: 50px 0px;
@@ -84,26 +86,24 @@ body {
     background: rgb(22, 157, 33);
     border: 2px solid rgb(51 229 30);
 }
-
 .donate-ammount li:hover a {
     color: #fff;
 }
-
 .donate-ammount li a {
     text-decoration: none;
     font-size: 30px;
     font-weight: 600;
     color: #000;
 }
-
 .donate-field input[type="number"] {
+    width: 400px;
     display: block;
-    width: 100%;
     border: 0;
     border-bottom: 1px solid #087a21;
     text-align: center;
     padding: 30px;
-    margin-bottom: 30px;
+    margin: auto;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 .donate-field input[type="number"]:focus-visible {
@@ -118,6 +118,8 @@ body {
     border: 0;
     font-size: 20px;
     transition: 0.3s;
+    margin-top: 20px;
+    display: inline-block;
 }
 .donate-field a:hover {
     background: linear-gradient(90deg, rgba(30, 217, 9, 1), rgba(7, 129, 56, 1) 100%);
@@ -181,15 +183,13 @@ body {
     background-color:rgb(243, 247, 223) ;
 }
 /* blog section start here  */
-.blog-section {
-    padding: 0 200px;
-}
 .blog-section .section-title {
     padding: 15px 150px 50px 150px;
 }
 .blog-details {
     display: flex;
     margin-bottom: 100px;
+    padding: 0 200px;
 }
 .blog-image img {
     width: 400px;
