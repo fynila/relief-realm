@@ -250,9 +250,12 @@ body {
     background: linear-gradient(90deg, rgba(30, 217, 9, 1), rgba(7, 129, 56, 1) 100%);
 }
 /* volunteer section  */
-section.team-area {
-    padding: 70px 0;
+.team-area {
+    padding: 70px 0 100px 0;
     background: #d6ffd8;
+}
+.team-area .section-title {
+    padding: 15px 300px 15px 300px;
 }
 .our-team {
     padding: 0 200px;
